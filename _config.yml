@@ -1,5 +1,3 @@
-remote_theme: mmistakes/so-simple-theme
+theme: jekyll-theme-cayman
 title: Mochammad Farkhan Pages
 description: Hi welcome to my Github-pages
-
-theme: jekyll-theme-cayman
