@@ -1,2 +1,2 @@
-<h1>welcome guys</h1>
-<h2>my name is farkhan</h2>
+<h1>Welcome guys</h1>
+<h2>My name is Farkhan</h2>
