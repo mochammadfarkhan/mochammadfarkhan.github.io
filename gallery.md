@@ -1,6 +1,6 @@
 <html>
   <head>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="_styles/styles.css" />
   </head>
   <body>
     <h1>Hello, World!</h1>
