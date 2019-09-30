@@ -8,6 +8,4 @@
 Suspendisse quam risus, consequat non nisl nec, condimentum eleifend mauris. Nulla fermentum, mi quis vulputate fringilla, quam lacus eleifend dolor, eget vestibulum lacus nisi ac nunc. Mauris lectus quam, finibus eget ante et, ornare pulvinar tellus. Aenean purus dui, condimentum varius bibendum vitae, molestie et neque. Quisque volutpat nulla quis justo bibendum ullamcorper. In ullamcorper lectus erat, nec interdum justo tristique nec. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam sem odio, tempor ut leo at, dignissim luctus mauris. Donec ullamcorper est vitae nisl tempus viverra. Praesent consectetur justo ex, quis laoreet dolor dignissim at. Suspendisse rutrum dapibus ipsum ut consequat. Fusce id varius tellus. Morbi sodales mattis ante, eu egestas dui ullamcorper id. Sed vel ultrices quam. Donec in eros at sapien laoreet iaculis.
 ```
 
-
-</body>
-</html>
+for more content get to the navbar
