@@ -1,3 +1,8 @@
+---
+layout: page
+title: portfolio
+permalink: /portofolio
+---
 <html>
   <head>
     <style>
