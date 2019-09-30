@@ -1,6 +1,22 @@
 <html>
   <head>
-    <link rel="stylesheet" href="_styles/styles.css" />
+    <style>
+      body {
+        text-align: center;
+        background-color: #f0e8c5;
+      }
+      div {
+        margin-top: 15px;
+      }
+      image-section {
+        display: flex;
+        justify-content: center;
+      }
+      section-style {
+        margin-right: 25px;
+        margin-left: 25px;
+        background-color: white;
+      </style>
   </head>
   <body>
     <h1>Hello, World!</h1>
