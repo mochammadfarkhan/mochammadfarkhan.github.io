@@ -1,7 +1,7 @@
 ---
 layout: page
 title: portfolio
-permalink: /portofolio
+permalink: /portfolio
 ---
 <html>
   <head>
