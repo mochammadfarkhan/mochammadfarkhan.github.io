@@ -4,6 +4,7 @@
   </head>
   <body>
     <h1>Hello, World!</h1>
+    <link rel="stylesheet" href="_styles/styles.css" />
 
     <div class="image-section">
       <div class="section-style">
