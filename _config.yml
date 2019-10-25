@@ -7,3 +7,4 @@ github_username:  mochammadfarkhan
 
 # Build settings
 markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.17.1"
