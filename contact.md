@@ -7,11 +7,11 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
-  <img class="w3-image" src="/w3images/photographer.jpg" alt="Me" width="1500" height="600">
+  <img class="w3-image" src="https://unsplash.com/photos/npxXWgQ33ZQ" alt="Me" width="1500" height="600">
   <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
-    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JANE DOE</h1>
-    <h5 class="w3-hide-large" style="white-space:nowrap">JANE DOE</h5>
-    <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">Farkhan</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">FARKHAN</h5>
+    <h3 class="w3-hide-medium w3-hide-small">INFORMATIC ENGINER</h3>
   </div>
   
   <!-- Navbar (placed at the bottom of the header image) -->
