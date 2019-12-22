@@ -31,7 +31,7 @@
 
     <!--====== ABOUT PART START ======-->
 
-    <section id="about" class="about-area pt-125 pb-130">
+    <section id="about" class="about-area pt-10 pb-10">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
