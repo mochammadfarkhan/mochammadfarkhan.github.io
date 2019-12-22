@@ -33,7 +33,7 @@
 
     <!--====== ABOUT PART START ======-->
 
-    <section id="about" class="about-area pt-20 pb-130">
+    <section id="about" class="about-area pt-5 pb-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
