@@ -163,3 +163,4 @@
     </section>
 
     <!--====== ABOUT PART ENDS ======-->
+</body>
