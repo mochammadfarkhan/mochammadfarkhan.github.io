@@ -45,7 +45,7 @@
                         </div>
                         <div class="contact-content">
                             <h6 class="contact-title">Address</h6>
-                            <p>123 Stree New York City , United States Of America 750</p>
+                            <p>Jalan Harapan, gg Sejahtera No 88, Pekanbaru, Riau</p>
                         </div>
                     </div> <!-- contact box -->
                 </div>
@@ -56,8 +56,7 @@
                         </div>
                         <div class="contact-content">
                             <h6 class="contact-title">Phone</h6>
-                            <p>+931 2222 5555</p>
-                            <p>+547 5554 6663</p>
+                            <p>+628 1169 02143</p>
                         </div>
                     </div> <!-- contact box -->
                 </div>
@@ -68,8 +67,7 @@
                         </div>
                         <div class="contact-content">
                             <h6 class="contact-title">Email</h6>
-                            <p>support@yourmail.com</p>
-                            <p>info@helpline.com</p>
+                            <p>mochammadfarkhan@gmail.com</p>
                         </div>
                     </div> <!-- contact box -->
                 </div>
@@ -97,7 +95,7 @@
                 <div class="col-lg-6">
                     <div class="contact-map mt-60">
                         <div class="gmap_canvas">                            
-                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Mission%20District%2C%20San%20Francisco%2C%20CA%2C%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <iframe id="gmap_canvas" src="https://www.google.com/maps/d/embed?mid=1GEa4h8-EtcG8atkaf7rLhppKgUM" width="640" height="480"></iframe>" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                         </div>
                     </div> <!-- contact map -->
                 </div>
