@@ -44,8 +44,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="about-content mt-50">
-                        <h5 class="about-title">Hi There! I'm Mark Parker</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <h5 class="about-title">Hi There! My Name is Mochmmad Farkhan</h5>
+                        <p>I am a software enginer student at Riau Univeristy. From now on im studied a lot of new technology to improve my skill. This website is dedicated to show my personal work, i hope you enjoy it. Stay awesome bros</p>
                         <ul class="clearfix">
                             <li>
                                 <div class="single-info d-flex align-items-center">
@@ -53,7 +53,7 @@
                                         <i class="lni-calendar"></i>
                                     </div>
                                     <div class="info-text">
-                                        <p><span>Date of birth:</span> 8 June 1995</p>
+                                        <p><span>Date of birth:</span> 14 January 2001</p>
                                     </div>
                                 </div> <!-- single info -->
                             </li>
@@ -63,7 +63,7 @@
                                         <i class="lni-envelope"></i>
                                     </div>
                                     <div class="info-text">
-                                        <p><span>Email:</span> parker@mysite.com</p>
+                                        <p><span>Email:</span> mochammadfarkhan@gmail.com</p>
                                     </div>
                                 </div> <!-- single info -->
                             </li>
@@ -73,7 +73,7 @@
                                         <i class="lni-phone-handset"></i>
                                     </div>
                                     <div class="info-text">
-                                        <p><span>Phone:</span> +1-202-555-0138</p>
+                                        <p><span>Phone:</span> +628-1169-02143</p>
                                     </div>
                                 </div> <!-- single info -->
                             </li>
@@ -83,7 +83,7 @@
                                         <i class="lni-map-marker"></i>
                                     </div>
                                     <div class="info-text">
-                                        <p><span>Location:</span> 4373, El Centro, CA</p>
+                                        <p><span>Location:</span> Pekanbaru, Riau, Indonesia</p>
                                     </div>
                                 </div> <!-- single info -->
                             </li>
@@ -94,7 +94,7 @@
                     <div class="about-skills pt-25">
                         <div class="skill-item mt-25">
                             <div class="skill-header">
-                                <h6 class="skill-title">HTML</h6>
+                                <h6 class="skill-title">C Language</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
                                         <span class="counter">80</span>
@@ -110,7 +110,7 @@
                         </div> <!-- skill item -->
                         <div class="skill-item mt-25">
                             <div class="skill-header">
-                                <h6 class="skill-title">CSS</h6>
+                                <h6 class="skill-title">Java Language</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
                                         <span class="counter">60</span>
@@ -126,7 +126,7 @@
                         </div> <!-- skill item -->
                         <div class="skill-item mt-25">
                             <div class="skill-header">
-                                <h6 class="skill-title">Photoshop</h6>
+                                <h6 class="skill-title">Android Studio</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
                                         <span class="counter">50</span>
@@ -142,7 +142,7 @@
                         </div> <!-- skill item -->
                         <div class="skill-item mt-25">
                             <div class="skill-header">
-                                <h6 class="skill-title">Sketch</h6>
+                                <h6 class="skill-title">Figma</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
                                         <span class="counter">90</span>
