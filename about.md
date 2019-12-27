@@ -37,7 +37,7 @@
                 <div class="col-lg-8">
                     <div class="section-title text-center">
                         <h2 class="title">About Me</h2>
-                        <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
+                        <p>Hello my name is Mochammad Farkhan, and you can call me khan. This website is dedicated to store my portfolio and my attempt to create a small managable website</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
