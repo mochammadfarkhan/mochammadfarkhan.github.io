@@ -31,23 +31,23 @@
 
    
 
-    <!--====== ABOUT PART START ======-->
+ <!--====== ABOUT PART START ======-->
 
-    <section id="about" class="about-area pt-5 pb-5">
+    <section id="about" class="about-area pt-125 pb-130">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center">
                         <h2 class="title">About Me</h2>
-                        <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
+                        <p>Hello my name is Mochammad Farkhan, and you can call me khan. This website is dedicated to store my portfolio and my attempt to create a small managable website</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
             <div class="row">
                 <div class="col-lg-6">
                     <div class="about-content mt-50">
-                        <h5 class="about-title">Hi There! My name is Mochammad Farkhan</h5>
-                        <p>Aku adalah seorang mahasiswa teknik infromatika di Univeristas Riau. Sekarang aku bertempat tinggal di pekanbaru dan sedang mendalami Mobile App development dan ui/ux design.</p>
+                        <h5 class="about-title">Hi There! My Name is Mochmmad Farkhan</h5>
+                        <p>I am a software enginer student at Riau Univeristy. From now on im studied a lot of new technology to improve my skill. This website is dedicated to show my personal work, i hope you enjoy it. Stay awesome bros</p>
                         <ul class="clearfix">
                             <li>
                                 <div class="single-info d-flex align-items-center">
@@ -55,7 +55,7 @@
                                         <i class="lni-calendar"></i>
                                     </div>
                                     <div class="info-text">
-                                        <p><span>Date of birth:</span> 14 januari 2001</p>
+                                        <p><span>Date of birth:</span> 14 January 2001</p>
                                     </div>
                                 </div> <!-- single info -->
                             </li>
@@ -75,7 +75,7 @@
                                         <i class="lni-phone-handset"></i>
                                     </div>
                                     <div class="info-text">
-                                        <p><span>Phone:</span> +628116902143</p>
+                                        <p><span>Phone:</span> +628-1169-02143</p>
                                     </div>
                                 </div> <!-- single info -->
                             </li>
@@ -85,7 +85,7 @@
                                         <i class="lni-map-marker"></i>
                                     </div>
                                     <div class="info-text">
-                                        <p><span>Location:</span> Jl. harapan gg. sejahtera 1, No 88, Pekanbaru, Riau</p>
+                                        <p><span>Location:</span> Pekanbaru, Riau, Indonesia</p>
                                     </div>
                                 </div> <!-- single info -->
                             </li>
@@ -96,7 +96,7 @@
                     <div class="about-skills pt-25">
                         <div class="skill-item mt-25">
                             <div class="skill-header">
-                                <h6 class="skill-title">HTML</h6>
+                                <h6 class="skill-title">C Language</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
                                         <span class="counter">80</span>
@@ -112,7 +112,7 @@
                         </div> <!-- skill item -->
                         <div class="skill-item mt-25">
                             <div class="skill-header">
-                                <h6 class="skill-title">CSS</h6>
+                                <h6 class="skill-title">Java Language</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
                                         <span class="counter">60</span>
@@ -128,7 +128,7 @@
                         </div> <!-- skill item -->
                         <div class="skill-item mt-25">
                             <div class="skill-header">
-                                <h6 class="skill-title">Photoshop</h6>
+                                <h6 class="skill-title">Android Studio</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
                                         <span class="counter">50</span>
@@ -144,7 +144,7 @@
                         </div> <!-- skill item -->
                         <div class="skill-item mt-25">
                             <div class="skill-header">
-                                <h6 class="skill-title">Sketch</h6>
+                                <h6 class="skill-title">Figma</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
                                         <span class="counter">90</span>
