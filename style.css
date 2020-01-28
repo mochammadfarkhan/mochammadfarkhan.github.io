@@ -129,6 +129,7 @@ button a {
 
 .flex-container {
     display: flex;
+    justify-content: center;
 }
 
 .copyright {
@@ -143,10 +144,15 @@ button a {
 }
 
 .socialmedia{
+    margin: 20px;
     display: flex;
+    flex-direction: row;
     text-align: center;
     justify-content: center;
 }
-.socialmedia li{
-    padding: 10px;
+
+.newButton{
+    margin: 2px;
+    padding: 2px;
+    background: orange;
 }
