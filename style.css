@@ -1,25 +1,6 @@
-body {
-    background: rgb(49, 49, 49);
-    font-family: Helvetica, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
-header {
-    text-align: centers;
-    background: rgb(58, 58, 58);
-    padding: 16px;
-}
 
-section {
-    text-align: center;
-}
 
-li {
-    color: white;
-    text-decoration: none;
-    list-style: none;
-}
 
 .card {
     background: whitesmoke;
@@ -54,18 +35,7 @@ div img {
     height: 200px;
     width: 400px;
 }
-h1 {
-    color: orange;
-}
 
-h2 {
-    color: white;
-}
-
-p {
-    font-size: large;
-    color: white;
-}
 
 button {
     border-radius: 25px;
@@ -76,16 +46,7 @@ button {
     color: white;
 }
 
-body section ul {
-    display: inline;
-}
-logo {
-    font-size: 20pt;
-    background: orange;
-    color: white;
-    border-radius: 3px;
-    padding: 10px 15px;
-}
+
 
 header nav ul li {
     margin: auto;
@@ -96,36 +57,6 @@ header nav ul li a {
     text-decoration: none;
 }
 
-li a:active, li a:hover {
-    color: orange;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: orange;
-}
-
-footer nav ul li {
-    right: 0;
-    list-style-type: none;
-    display: inline;
-    padding-left: 10px;
-}
-
-a {
-    color: white;
-}
-footer nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-button a {
-    text-decoration: none;
-}
 
 .flex-container {
     display: flex;
@@ -141,14 +72,6 @@ button a {
     color: white;
     display: inline;
     font-size: smaller;
-}
-
-.socialmedia{
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
 }
 
 .newButton{

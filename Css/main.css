@@ -1,0 +1,37 @@
+body {
+    background: rgb(49, 49, 49);
+    font-family: Helvetica, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: centers;
+    background: rgb(58, 58, 58);
+    padding: 16px;
+}
+
+logo {
+    font-size: 20pt;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    font-size: large;
+    color: white;
+}
+
+section{
+    text-align: center;
+}
