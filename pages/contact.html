@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="stylesheet" href="../style.css" />
         <link rel="stylesheet" href="../Css/main.css" />
         <link rel="stylesheet" href="../Css/header.css" />
@@ -16,20 +19,32 @@
     <body>
         <title>FarkhanDev</title>
         <header>
-            <nav>
-                <ul class="navbar">
-                    <logo>FarkhanDev</logo>
-                    <li>
-                        <a href="../index.html" class="navbar_menu">Home</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html" class="navbar_menu">Portfolio</a>
-                    </li>
-                    <li><a href="about.html" class="navbar_menu">About</a></li>
-                    <li>
-                        <a href="contact.html" class="navbar_menu">Contact</a>
-                    </li>
-                </ul>
+            <nav class="navbar">
+                <div class="logo-container">
+                    <h1 class="logo">FarkhanDev</h1>
+                </div>
+                <div class="navbar-container">
+                    <ul class="navbar-item">
+                        <li>
+                            <a href="../index.html" class="navbar_menu">Home</a>
+                        </li>
+                        <li>
+                            <a
+                                href="portfolio.html"
+                                class="navbar_menu"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li>
+                            <a href="about.html" class="navbar_menu">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="navbar_menu selected"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
         <section>
@@ -57,9 +72,34 @@
                 class="fa fa-pinterest"
             ></a>
         </section>
-        <footer class="footer_class">
+        <footer>
+            <div class="footer-info-container">
+                <div class="about-me">
+                    <h3>About Me</h3>
+                    <p>
+                        I’m passionate about CG stuff and particularly enjoy
+                        modeling cars. Also, enjoy modeling & texturing
+                        environments and props for video games. My biggest goal
+                        is to inspire people to do Awesome work with CG.
+                    </p>
+                </div>
+                <div class="contact-me">
+                    <h3>Contact</h3>
+                    <p>
+                        Have any questions or suggestions for my new Assets /
+                        Tutorials? Feel free to
+                    </p>
+                </div>
+                <div class="follow-me">
+                    <h3>Follow Me</h3>
+                    <p>this is a text to follow me</p>
+                </div>
+            </div>
+
             <div class="copyright">
-                <p class="hmm">© Copyright 2020. Mochammad Farkhan</p>
+                <p>
+                    © Copyright 2020. Mochammad Farkhan. Privacy Policy
+                </p>
             </div>
         </footer>
     </body>

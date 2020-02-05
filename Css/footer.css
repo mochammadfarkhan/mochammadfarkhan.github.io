@@ -1,37 +1,44 @@
-.footer_class {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+footer{
+    position: static;
     width: 100%;
-    background: orange;
+    background: black;
 }
 
-footer nav ul li {
-    right: 0;
-    list-style-type: none;
-    display: inline;
-    padding-left: 10px;
+.contact-me,
+.about-me,
+.follow-me {
+    flex: 1;
+    margin: 20px;
 }
 
-footer nav ul li a {
+.contact-me p,
+.about-me p,
+.follow-me p {
+    text-justify: auto;
+}
+
+.footer-info-container {
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+h3 {
     color: white;
-    text-decoration: none;
-}footer {
-    position: fixed;
-    bottom: 0;
+}
+
+.copyright {
+    padding: 1px;
+    position: relative;
     left: 0;
-    width: 100%;
+    bottom: 0;
     background: orange;
+    width: 100%;
+    margin: auto;    
 }
-
-footer nav ul li {
-    right: 0;
-    list-style-type: none;
-    display: inline;
-    padding-left: 10px;
-}
-
-footer nav ul li a {
+.copyright p {
     color: white;
-    text-decoration: none;
+    font-size: medium;
+    text-align: center;
 }
+

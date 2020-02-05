@@ -1,17 +1,46 @@
-.navbar{
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container {
+    justify-self: flex-end;
+}
+
+.navbar-item {
     margin: 0;
     padding: 0;
     color: white;
     text-decoration: none;
     list-style: none;
 }
-
-.navbar_menu{
-    display: inline;
+.navbar_menu {
     color: white;
 }
 
+.logo-container {
+}
 
-.navbar_menu:hover, .navbar_menu:active {
+.logo {
+    font-size: 16pt;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+.navbar_menu:hover,
+.navbar_menu:active,
+.selected {
     color: orange;
+}
+
+header nav ul li {
+    margin: auto;
+    padding: 10px;
+    display: inline;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: large;
 }
