@@ -1,8 +1,9 @@
-body {
-    background: rgb(49, 49, 49);
-    font-family: Helvetica, Helvetica, sans-serif;
+html, body {
+    font-family: Roboto;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    overflow-x: auto;
 }
 
 header {
@@ -11,16 +12,18 @@ header {
 }
 
 h1 {
-    color: orange;
+    font-family: Roboto;
+    font-size: xx-large;
+    color: black;
 }
 
 h2 {
-    color: white;
+    color: black;
 }
 
 p {
-    font-size: large;
-    color: white;
+    font-size: medium;
+    color: black;
 }
 
 section {
