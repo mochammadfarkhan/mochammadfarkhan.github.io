@@ -27,7 +27,9 @@
     color: white;
 }
 
-
+.welcome-section{
+    padding: 20px;
+}
 
 button {
     border-radius: 25px;

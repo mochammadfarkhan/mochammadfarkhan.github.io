@@ -1,28 +1,37 @@
 .navbar {
-  display: flex;
   align-items: center;
-  width: 90%;
-  margin: auto;
-  padding: 0;
-  height: 10vh;
+}
+
+
+.navbar-container {
+  justify-content: space-around;
+  align-content: center;
+}
+
+.flex-row{
+  display: flex;
 }
 
 .logo-container {
   flex: 1;
-}
-.navbar-container {
-  flex: 2;
-  justify-content: flex-end;
+  padding: 1rem 1rem;
 }
 
 .navbar-list {
-  color: white;
-  text-decoration: none;
+  flex: 2;
+  justify-content: center;
+}
+
+.navbar-list {
+  padding: 0;
+  display: flex;
   list-style: none;
 }
 
 .navbar_item {
   color: white;
+  text-decoration: none;
+  padding: 1.6rem 1rem;
 }
 
 .logo {
@@ -30,8 +39,6 @@
   list-style: none;
   font-size: 16pt;
   color: white;
-  border-radius: 3px;
-  padding: 10px 15px;
 }
 
 .navbar_item:hover,
@@ -40,22 +47,13 @@
   color: orange;
 }
 
-header nav ul li {
-  margin: auto;
-  padding: 10px;
-  display: inline;
-}
-header nav ul li a {
-  text-decoration: none;
-  font-size: large;
-}
 
+@media (max-width: 760px) {
+  .flex-row{
+    flex-direction: column;
+  }
 
-@media (max-width: 760px){
-    .navbar{
-        flex-direction: column;
-        justify-content: center;
-        height: 20vh;
-        margin: auto;
-    }
+  .logo-container{
+    text-align: center;
+  }
 }
