@@ -10,12 +10,7 @@
     <title>Farkhan</title>
 
     <!-- Style from css file -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="Css/main.css" />
-    <link rel="stylesheet" href="Css/header.css" />
-    <link rel="stylesheet" href="Css/footer.css" />
-    <link rel="stylesheet" href="Css/contact.css" />
-    <link rel="stylesheet" href="neonButton.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!--Fonts Style-->
     <link
@@ -24,84 +19,76 @@
     />
   </head>
 
-  <body>
-    <header>
-      <!------------ Navigation Bar ------------------------->
+  <body class="h-screen" >
+    <div class="flex flex-col">
+      <header class="flex-shrink">
+        <!-- Navigation Bar -->
 
-      <nav class="navbar">
-        <div class="navbar-container flex-row">
-          <div class="logo-container">
-            <a href="#" class="logo">Mochammad Farkhan</a>
+        <nav class="px-3 py-2 flex justify-between">
+          <div class="">
+            <a href="#" class="text-lg font-bold">Mochammad Farkhan</a>
           </div>
 
-          <div>
-            <ul class="navbar-list">
+          <div class="">
+            <ul class="flex gap-4">
               <li>
-                <a href="../index.html" class=" navbar_item selected">Home</a>
+                <a
+                  href="../index.html"
+                  class="text-sm font-medium font-mono hover:text-blue-800 text-blue-600"
+                  >Home</a
+                >
               </li>
               <li>
-                <a href="pages/portfolio.html" class=" navbar_item"
+                <a
+                  href="pages/portfolio.html"
+                  class="text-sm font-medium font-mono hover:text-blue-800 text-blue-600"
                   >Portfolio</a
                 >
               </li>
               <li>
-                <a href="pages/about.html" class="  navbar_item">About</a>
+                <a
+                  href="pages/about.html"
+                  class="text-sm font-medium font-mono hover:text-blue-800 text-blue-600"
+                  >About</a
+                >
               </li>
               <li>
-                <a href="pages/contact.html" class=" navbar_item">Contact</a>
+                <a
+                  href="pages/contact.html"
+                  class="text-sm font-medium font-mono hover:text-blue-800 text-blue-600"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
 
-    <!------------ Navigation Bar ------------------------->
-
-    <!-- The First Section -->
-    <section class="welcome-section">
-      <h1>Welcome To My Website</h1>
-      <p>
-        Hey there, friends. My name is Farkhan. This website is <br />
-        dedicated to showing off my projects.<br /><br />
-        Want to know more about me?
-      </p>
-
-      <button class="neonbtn mybutton">
-        <a href="pages/about.html">Click Here</a>
-      </button>
-    </section>
-
-    <footer class="footer_class">
-      <div class="footer-info-container">
-        <div class="about-me">
-          <h3>About Me</h3>
-          <p>
-            I’m passionate about CG stuff and particularly enjoy modeling cars.
-            Also, enjoy modeling & texturing environments and props for video
-            games. My biggest goal is to inspire people to do Awesome work with
-            CG.
-          </p>
-        </div>
-        <div class="contact-me">
-          <h3>Contact</h3>
-          <p>
-            Have any questions or suggestions for my new Assets / Tutorials?
-            Feel free to
-          </p>
-        </div>
-        <div class="follow-me">
-          <h3>Follow Me</h3>
-          <p>this is a text to follow me</p>
-        </div>
-      </div>
-
-      <div class="copyright">
+      <section class="p-10 flex-grow">
+        <p class="text-2xl font-semibold font-mono">Hi! My Name</p>
+        <p class="text-5xl font-bold font-mono">Mochammad Farkhan</p>
         <p>
-          © Copyright 2020. Mochammad Farkhan. Privacy Policy
+          and nothing else to say unfortunatly. Checkout my awesome project
+          here!
         </p>
-      </div>
-    </footer>
+      </section>
+
+      <!-- Footer -->
+
+      <footer class="absolute w-full bg-slate-200 bottom-0">
+        <!-- <div class="about-me">
+          <h1>About Me</h1>
+          <p class="text-white">
+            I am a full stack web developer. I have a passion for programming
+            and I love to create. I am currently working as a freelancer.
+          </p>
+        </div> -->
+
+        <div class="text-center text-black font-sans py-2 text-sm">
+          <p>© Copyright 2020. Mochammad Farkhan. Privacy Policy</p>
+        </div>
+      </footer>
+    </div>
 
     <!-- Costum Javascript -->
     <script src="./Javascript/main.js"></script>
