@@ -2,53 +2,56 @@
 <html>
 
 <head>
-  <!-- #region -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<!-- #region -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!--Title goes Here-->
-  <title>Mochammad Farkhan</title>
+	<!--Title goes Here-->
+	<title>Mochammad Farkhan</title>
 
-  <!-- Style from css file -->
-  <script src="https://cdn.tailwindcss.com"></script>
+	<!-- Style from css file -->
+	<script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- js scripts -->
-  <script src="https://www.w3schools.com/lib/w3.js"></script>
+	<!-- js scripts -->
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+	<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-  <!--Fonts Style-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+	<!--Fonts Style-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
 </head>
 
 <body class="h-screen">
-  <div class="flex flex-col">
+	<div class="flex flex-col">
 
-    <!-- Navigation Bar -->
-    
-    <div w3-include-html="header.html"></div>
+		<!-- Navigation Bar -->
 
-    <!-- Navigation Bar End -->
+		<div w3-include-html="header.html"></div>
 
-    <!-- Content -->
+		<!-- Navigation Bar End -->
 
-    <section class="p-10  h-[calc(100vh_-_5.5rem)] w-full sm:max-w-2xl md:max-w-7xl  mx-auto bg-gray-300">
-      <div class="max-w-5xl m-auto">
-        <p class="text-2xl font-semibold font-mono">Hi! My Name</p>
-        <p class="text-5xl font-bold font-mono">Mochammad Farkhan</p>
-        <p>
-          and nothing else to say unfortunately. Check Out my awesome project <a href="portfolio.html"
-            class="text-purple-900">here</a>!
-        </p>
-      </div>
-    </section>
+		<!-- Content -->
 
-    <!-- Content -->
+		<section class="p-10  h-[calc(100vh_-_5.5rem)] w-full sm:max-w-2xl md:max-w-7xl  mx-auto bg-gray-300">
+			<div class="max-w-5xl m-auto">
+				<p class="text-2xl font-semibold font-mono">Hi! My Name</p>
+				<p class="text-5xl font-bold font-mono">Mochammad Farkhan</p>
+				<p>
+					and nothing else to say unfortunately. Check Out my awesome project <a href="portfolio.html"
+						class="text-purple-900">here</a>!
+				</p>
+				<h1 x-data="{ message: 'I ❤️ Alpine' }" x-text="message"></h1>
 
-    <!-- Footer -->
+			</div>
+		</section>
 
-    <footer class="sticky w-full bg-slate-200 bottom-0">
-      <div class="w-full sm:max-w-2xl md:max-w-7xl mx-auto bg-slate-800">
-        <!-- <div class="about-me">
+		<!-- Content -->
+
+		<!-- Footer -->
+
+		<footer class="sticky w-full bg-slate-200 bottom-0">
+			<div class="w-full sm:max-w-2xl md:max-w-7xl mx-auto bg-slate-800">
+				<!-- <div class="about-me">
             <h1>About Me</h1>
             <p class="text-white">
               I am a full stack web developer. I have a passion for programming
@@ -56,25 +59,25 @@
             </p>
           </div> -->
 
-        <div class="text-center text-slate-400 font-sans py-2 text-sm">
-          <p>© Copyright 2022. Mochammad Farkhan</p>
-        </div>
-      </div>
-    </footer>
+				<div class="text-center text-slate-400 font-sans py-2 text-sm">
+					<p>© Copyright 2022. Mochammad Farkhan</p>
+				</div>
+			</div>
+		</footer>
 
-    <!-- Footer -->
+		<!-- Footer -->
 
-  </div>
+	</div>
 
-  <!-- Costum Javascript -->
+	<!-- Costum Javascript -->
 
-  <script>
-    w3.includeHTML();
-  </script>
+	<script>
+		w3.includeHTML();
+	</script>
 
-  <script src="./Javascript/main.js"></script>
+	<script src="./Javascript/main.js"></script>
 
-  <!-- Costum Javascript -->
+	<!-- Costum Javascript -->
 
 </body>
 
