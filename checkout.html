@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- #region -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!--Title goes Here-->
+    <title>Checkout</title>
+
+    <!-- Style from css file -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- js scripts -->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+    <!--Fonts Style-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body class="h-screen">
+    <div class="flex flex-col">
+
+        <!-- Content -->
+
+        <section class="p-10 h-screen w-full sm:max-w-2xl md:max-w-7xl bg-slate-50">
+            <div class="max-w-3xl m-auto bg-slate-50 shadow-sm p-10 rounded-md border border-gray-200">
+                <h1 class="text-left text-slate-800 text-xl font-medium mb-5">Checkout</h1>
+                <h1 class="text-left text-slate-800 text-md font-normal mb-5">Finish your payment</h1>
+
+                <form action="" class="">
+                    <div class="flex flex-col">
+                        <label for="" class="text-slate-500">Card Holder</label>
+                        <input type="text"
+                            class="bg-slate-50 w-full border border-gray-300 my-2 rounded-sm focus:outline-none focus:ring-2 focus:ring-orange-500 py-1 px-2" value="Jhon Doe">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="" class="text-slate-500">Card Number</label>
+                        <div class="grid grid-cols-4 W-96 gap-2">
+                            <input type="text"
+                                class="bg-slate-50 border border-gray-300 my-2 rounded-sm focus:outline-none focus:ring-2 focus:ring-orange-500 py-1 px-2" value="419">
+                            <input type="text"
+                                class="bg-slate-50 border border-gray-300 my-2 rounded-sm focus:outline-none focus:ring-2 focus:ring-orange-500 py-1 px-2" value="525">
+                            <input type="text"
+                                class="bg-slate-50 border border-gray-300 my-2 rounded-sm focus:outline-none focus:ring-2 focus:ring-orange-500 py-1 px-2" value="111">
+                            <input type="text"
+                                class="bg-slate-50 border border-gray-300 my-2 rounded-sm focus:outline-none focus:ring-2 focus:ring-orange-500 py-1 px-2" value="***">
+                            
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 w-full">
+
+                        <div class="flex flex-col">
+                            <label for="" class="text-slate-500">Valid Thru</label>
+                            <input type="text"
+                                class="bg-slate-50 border border-gray-300 my-2 rounded-sm focus:outline-none focus:ring-2 focus:ring-orange-500 py-1 px-2" value="12/24">
+                        </div>
+                        <div class="flex flex-col">
+                            <label for="" class="text-slate-500">CVV</label>
+                            <input type="text"
+                                class="bg-slate-50 border border-gray-300 my-2 rounded-sm focus:outline-none focus:ring-2 focus:ring-orange-500 py-1 px-2" value="12/24">
+                        </div>
+                    </div>
+                    <div class="flex w-full justify-end">
+                        <!-- <a href="" class="text-orange-400 font-semibold text-sm">Sign In</a> -->
+                        <button
+                            class="px-3 bg-orange-400 my-2 rounded-md py-2 text-slate-50 font-semibold text-sm hover:bg-orange-500/90">
+                            Finish
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+
+        <!-- Content -->
+
+        <!-- floating button -->
+
+        <!-- logo svg left -->
+        <a href="portfolio.html" class="absolute bottom-10 right-10 flex">
+            <svg class="h-6 w-6 fill-current text-slate-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                    d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 16.094l-4.157-4.104 4.1-4.141-1.849-1.849-4.104 4.157-4.141-4.1-1.849 1.849 4.157 4.104-4.1 4.141 1.849 1.849 4.104-4.157 4.141 4.1 1.849-1.849z" />
+            </svg>
+            <span class="pl-5">Go Back</span>
+            <!-- floating button -->
+
+    </div>
+
+    <!-- Costum Javascript -->
+
+    <script>
+        w3.includeHTML();
+    </script>
+
+    <script src="./Javascript/main.js"></script>
+
+    <!-- Costum Javascript -->
+
+</body>
+
+</html>
